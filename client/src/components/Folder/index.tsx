@@ -1,15 +1,15 @@
 import styles from './styles.module.scss';
 
-const { folder, folder__title } = styles;
+const { folder } = styles;
 
-interface FolderTitle {
+export interface FolderProps {
   title: string;
 }
 
-export const Folder = ({ title }: FolderTitle) => {
+export const Folder = ({ title }: FolderProps) => {
   return (
-    <article className={folder}>
-      <h2 className={folder__title}>{title}</h2>
-    </article>
+    <a href='/' className={folder}>
+      {title}
+    </a>
   );
 };

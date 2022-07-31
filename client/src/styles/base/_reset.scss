@@ -8,8 +8,8 @@
 
 :root {
   color-scheme: dark light;
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: var(--clr-white-1);
+  background-color: var(--clr-black-2);
 }
 
 /* Allow percentage-based heights in the application */
@@ -61,6 +61,10 @@ button {
   cursor: pointer;
   border: none;
   background-color: transparent;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* https://www.scottohara.me/blog/2019/01/12/lists-and-safari.html */
