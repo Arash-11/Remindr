@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Inconsolata-Regular';
+  src: url(../../../public/fonts/Inconsolata-Regular.ttf) format('ttf');
+}
+
+:root {
+  // Fonts
+  font-size: 100%;
+  --font-scale-ratio: 1.2;
+
+  --font-size-0: 1rem;
+  --font-size-1: calc(var(--font-size-0) * var(--font-scale-ratio));
+  --font-size-2: calc(var(--font-size-1) * var(--font-scale-ratio));
+  --font-size-3: calc(var(--font-size-2) * var(--font-scale-ratio));
+  --font-size-4: calc(var(--font-size-3) * var(--font-scale-ratio));
+  --font-size-5: calc(var(--font-size-4) * var(--font-scale-ratio));
+  --font-size-6: calc(var(--font-size-5) * var(--font-scale-ratio));
+  --font-size-7: calc(var(--font-size-6) * var(--font-scale-ratio));
+
+  --font-family-main: 'Inconsolata-Regular', serif;
+  --font-family-read: Arial, Helvetica, sans-serif;
+
+
+  // Spacing
+  --max-content-width: 70rem;
+  --btn-padding-vertical: 0.6rem;
+  --btn-padding-horizontal: 3rem;
+  --btn-border-radius: 4px;
+
+
+  // Other
+  --box-shadow-1: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
